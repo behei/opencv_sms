@@ -31,8 +31,8 @@ while (True):
 	if (human_count > 0):
 		client_nexmo.send_message({
 			'from': '<your_outbound_number>',
-    		'to': '<your_inbound_number',
-    		'text': 'There has been ' + str(human_count) + ' human(s) detected!',
+    			'to': '<your_inbound_number',
+    			'text': 'There has been ' + str(human_count) + ' human(s) detected!',
 		})
 
 	# extract boxes so we can visualize thifs better
