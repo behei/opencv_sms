@@ -22,7 +22,7 @@ while (True):
 	# pass the frame to the classifier
 	persons_detected = classifier.detectMultiScale(gray_frame, 1.3, 5)
 	
-	# how many persons have been detected on the frame
+	# how many people have been detected on the frame
 	try:
 		human_count = persons_detected.shape[0]
 	except:
